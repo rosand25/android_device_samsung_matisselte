@@ -21,4 +21,4 @@ $(call inherit-product, device/samsung/matisselte/full_matisselte.mk)
 # Release name
 PRODUCT_RELEASE_NAME := SM-T535
 PRODUCT_DEVICE := matisselte
-PRODUCT_NAME := cm_matisselte
+PRODUCT_NAME := lineage_matisselte
