@@ -18,7 +18,7 @@
 DEVICE_PATH := device/samsung/matisselte
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_matisselte_defconfig
+TARGET_KERNEL_CONFIG := msm8926-sec_matisselte_defconfig
 
 # Partitions
 TARGET_USERIMAGES_USE_F2FS := true
