@@ -1,4 +1,5 @@
-# Copyright (C) 2016 The CyanogenMod Project
+#
+# Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,6 +16,7 @@
 # inherit from common matisse-common
 -include device/samsung/matisse-common/BoardConfigCommon.mk
 
+TARGET_OTA_ASSERT_DEVICE := matisselte,matisseltexx
 DEVICE_PATH := device/samsung/matisselte
 
 # Kernel
@@ -29,4 +31,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 1866465280
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
 # inherit from the proprietary version
--include vendor/samsung/ms013g/BoardConfigVendor.mk
+-include vendor/samsung/matisselte/BoardConfigVendor.mk
