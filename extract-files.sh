@@ -18,6 +18,7 @@
 set -e
 
 export DEVICE=matisselte
+export DEVICES="matisse3g matisselte matissewifi"
 export DEVICE_COMMON=matisse-common
 export VENDOR=samsung
 
